@@ -9,7 +9,7 @@ import java.net.Socket;
 public class ChatClient {
     private BufferedReader reader;
     private PrintWriter writer;
-    private String nickname;
+    public String nickname;
     public ClientView clientView;
 
     public ChatClient(String address,int port,ClientView clientView)
