@@ -61,6 +61,7 @@ public class ClientView {
     }
 
     private void welcome(String nickname) {
+        client.nickname = nickname;
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
